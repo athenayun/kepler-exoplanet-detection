@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Datasets
+data/raw/
+data/processed/
+*.fits
+*.fits.gz
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.h5
+*.keras
+*.ckpt
+checkpoints/
+
+# Logs
+*.log
